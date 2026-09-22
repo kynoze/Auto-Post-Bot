@@ -94,7 +94,7 @@ _album_buffers: Dict[Tuple[int, str], List[Message]] = defaultdict(list)
 _album_tasks: Dict[Tuple[int, str], asyncio.Task] = {}
 _album_lock = asyncio.Lock()
 
-FORWARD_CONCURRENCY = 1  # was 5 – sequential to preserve bulk order
+FORWARD_CONCURRENCY = 5
 _forward_sem = asyncio.Semaphore(FORWARD_CONCURRENCY)
 
 
