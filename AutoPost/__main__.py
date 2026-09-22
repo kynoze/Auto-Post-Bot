@@ -1,6 +1,5 @@
 
-from .user import UserBot
+from AutoPost.bot import app
 
 if __name__ == "__main__":
-    bot = UserBot()
-    bot.run()
+    app.run()
