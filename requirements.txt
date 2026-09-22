@@ -1,8 +1,8 @@
-kurigram==2.2.12
-tgcrypto==1.2.5
-pymongo==4.15.1
-
-# For web deployment
+kurigram==2.2.24
+tgcrypto-pyrofork
+pymongo==4.17.0
+cryptography
+parsett==1.8.5
 Flask==3.1.2
-gunicorn==23.0.0
-aiohttp==3.12.15
+gunicorn==26.0.0
+aiohttp==3.14.3
